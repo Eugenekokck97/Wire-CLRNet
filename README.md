@@ -8,8 +8,8 @@
 Pytorch implementation of the paper "[Trellis wire reconstruction by line anchor-based detection with vertical stereo vision](https://doi.org/10.1016/j.compag.2025.109948)".
 
 ## Introduction
-![Wire-CLRNet](.github/wire-clrnet.png)
-![Framework](.github/system_framework.png)
+![Wire-CLRNet](.github/wire-clrnet.jpeg)
+![Framework](.github/system_framework.jpeg)
 - A novel deep learning-based object-focused stereo vision system was developed.
 - Line anchor-based method was proposed for wire 2D detection and reconstruction.
 - Proposed method yields better accuracy and robustness in obscured settings.
@@ -52,6 +52,15 @@ python setup.py build develop
 ```
 
 ## Getting Started
+### Download Model
+Run the following commands to download the pretrained model and place it in the appropriate directory:
+
+```bash
+# Create the model directory
+mkdir -p model
+
+# Download the model weights
+wget -O model/best.pth https://huggingface.co/Eugenekokck97/Wire-CLRNet/resolve/main/best.pth
 
 ### Inference
 For wire detection only, run
