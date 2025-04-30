@@ -8,10 +8,13 @@
 Pytorch implementation of the paper "[Trellis wire reconstruction by line anchor-based detection with vertical stereo vision](https://doi.org/10.1016/j.compag.2025.109948)".
 
 ## Introduction
+
 ###Wire-CLRNet
 ![Wire-CLRNet](.github/wire-clrnet.jpeg)
+
 ###System framework
 ![Framework](.github/system_framework.jpeg)
+
 - A novel deep learning-based object-focused stereo vision system was developed.
 - Line anchor-based method was proposed for wire 2D detection and reconstruction.
 - Proposed method yields better accuracy and robustness in obscured settings.
