@@ -66,6 +66,7 @@ mkdir -p model
 
 # Download the model weights
 wget -O model/best.pth https://huggingface.co/Eugenekokck97/Wire-CLRNet/resolve/main/best.pth
+```
 
 ### Inference
 For wire detection only, run
