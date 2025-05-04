@@ -89,6 +89,11 @@ python main.py --input_dir data/stereo --stereo --visuaize
 | pred_dir | Directory containing predictions |
 
 ## Results
+### 2D Visual Results
+![2D-Visual-Results](.github/2D_result.png)
+
+### 3D Visual Result
+![3D-Visual-Results](.github/3D_results.png)
 
 ## Citation
 
