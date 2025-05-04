@@ -93,7 +93,7 @@ python main.py --input_dir data/stereo --stereo --visuaize
 ![2D-Visual-Results](.github/2D_result.png)
 
 ### 3D Visual Result
-![3D-Visual-Results](.github/3D_results.png)
+![3D-Visual-Results](.github/3d_results.png)
 
 ## Citation
 
